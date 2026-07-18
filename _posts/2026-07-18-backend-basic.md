@@ -1,7 +1,7 @@
 ---
 
 title: "백엔드 기초: 클라이언트, 서버, API, REST API"
-date: 2026-07-18
+date: 2026-07-18 10:00:00 +0900
 categories: [Backend]
 tags: [Backend, Client, Server, API, HTTP, REST]
 ---
