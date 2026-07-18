@@ -46,7 +46,7 @@ Content-Type: application/json  → Header
 | Body   | 생성하거나 수정할 데이터 | JSON 데이터       |
 
 
-### 1.3 Path, Query, Body
+### 1.3 Path, Query
 
 #### Path Parameter
 
