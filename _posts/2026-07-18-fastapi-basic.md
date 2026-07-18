@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "FastAPI 백엔드 기초 정리"
 date: 2026-07-18
@@ -1152,4 +1151,3 @@ Query Parameter: 검색, 필터, 정렬 등의 조건값
 → JSON 응답
 → 클라이언트
 ```
-````
