@@ -467,6 +467,7 @@ class TaskResponse(TaskBase):
 `main.py`
 
 ```python
+from __future__ import annotations  # 현재 버전이 낮은 경우 최신 문법 반영 가능
 from fastapi import FastAPI, HTTPException, Response, status
 from pydantic import BaseModel, Field
 
@@ -1008,14 +1009,24 @@ return {"message": "Task not found"}
 
 ### 3.16 Swagger UI 실습
 
+**파이썬 버전이 3.9 이하라면 Pydantic에서 최신 문법 반영을 위해 꼭 설치**
+```bash
+pip install eval_type_backport
+```
+
 가상환경 활성화
 
-**Windows:**
+Windows:
 ```powershell
 .venv\Scripts\activate
 ```
 
-**Mac:**
+**보안 오류 발생 시**
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Mac:
 ```bash
 source .venv/bin/activate
 ```
